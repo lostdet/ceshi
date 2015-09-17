@@ -1,6 +1,8 @@
 local BeginScene=class("BeginScene", function()
 	return display.newScene("BeginScene")
 end)
+--修改了数据
+--真的修改了数据
 MessageBox=require("app.Class.MessageBox")
 function BeginScene:ctor()
 	
